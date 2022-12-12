@@ -1,0 +1,83 @@
+body {
+    font-family: "Heebo";
+}
+
+.active-link {
+    color: #FF6464;
+}
+
+.navbar-nav a:hover {
+    color: #FF6464;
+}
+
+@media (min-width: 1400px) {
+    .container-one {
+        max-width: 1156px;
+    }
+}
+
+@media (min-width:1156px) {
+    .container-two {
+        max-width: 856px;
+    }
+}
+
+@media (min-width:1156px) {
+    .container-three {
+        max-width: 682px;
+    }
+}
+
+@media (max-width:576px) {
+    .feature-img {
+        width: 90%;
+        height: 100%;
+    }
+}
+
+/*Main section styles*/
+.main-pic {
+    width: 243px;
+    height: 243px;
+}
+
+.post__section {
+    background-color: #EDF7FA;
+}
+/*Main section styles*/
+
+/*Featured works section styles*/
+.feature-card-box-btn {
+    border-radius: 1rem;
+    background-color: #142850;
+    padding: 0 0.625rem;
+    color: white;
+}
+
+.feature-card-box-btn:hover {
+    border-radius: 1rem;
+    background-color: #142850;
+    color: white;
+}
+
+.feature-card {
+    border: 0;
+}
+
+.feature-line {
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+    margin-top: 1.5rem;
+}
+/*Featured works section styles*/
+
+/*Footer section styles*/
+.footer-sec{
+    margin-top: 4.25rem;
+}
+
+.footer-btn {
+    margin-right: 1.25rem;
+}
+/*Footer section styles*/
+
